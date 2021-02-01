@@ -17,6 +17,10 @@ body {
 hr {
     margin: 1.5rem 0rem;
 }
+/* spaces */
+.margin-md {
+    margin: 2rem;
+}
 
 /**containers**/
 .container {
@@ -24,13 +28,14 @@ hr {
 }
 
 .center-container {
-    max-width: width 350px;
+    max-width:  600px;
     
     margin: auto;
 }
 
 /* links */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -39,6 +44,10 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 0rem 0rem;
+   
     
     
 }
@@ -47,6 +56,9 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 0rem 0rem;
 
 }
 
@@ -65,7 +77,7 @@ hr {
     background-color: var(--primary-color);
     padding: 0.5rem 0.5rem;
    
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 
 }
 
@@ -73,6 +85,7 @@ hr {
     font-weight: bold;
     font-size: 1.1rem;
     color: white;
+    margin: 0.5rem 0.5rem;
 }
 
 .navigation .link {
@@ -91,7 +104,7 @@ hr {
 
 }
 .hero .hero-img{
-    max-width: 350px;
+    max-width: 400px;
     display:block;
     margin:auto;
 
@@ -105,7 +118,8 @@ hr {
     color:var(--primary-color)
 }
 .section{
-    padding: 5rem;
+    padding: 4rem;
+    
 } 
 .section h1 {
     text-align: center;
@@ -117,7 +131,7 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align:center;
-    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     color:white
 }
 .footer .link{
