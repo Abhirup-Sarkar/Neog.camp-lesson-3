@@ -80,7 +80,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     
-    padding: 0.5rem 0.5rem;
+    padding: 2rem 1rem;
    
     border-bottom-left-radius: 1rem;
 
@@ -136,7 +136,7 @@ hr {
 }
 .footer{
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     text-align:center;
     border-top-right-radius: 1rem;
     color:white
